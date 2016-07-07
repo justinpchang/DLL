@@ -23,8 +23,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D0298D0C1D2E7AA700ED85F1 /* OrderedDLL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderedDLL.h; sourceTree = "<group>"; };
 		D0B4C47F1D2CAEFD00F54A3B /* DLL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DLL; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B4C4821D2CAEFD00F54A3B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D0B4C4891D2CAF0800F54A3B /* DLL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLL.h; sourceTree = "<group>"; };
+		D0B4C48A1D2CAF1700F54A3B /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				D0B4C4821D2CAEFD00F54A3B /* main.cpp */,
+				D0298D0C1D2E7AA700ED85F1 /* OrderedDLL.h */,
+				D0B4C4891D2CAF0800F54A3B /* DLL.h */,
+				D0B4C48A1D2CAF1700F54A3B /* Node.h */,
 			);
 			path = DLL;
 			sourceTree = "<group>";
@@ -239,6 +245,7 @@
 				D0B4C4881D2CAEFD00F54A3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
